@@ -13,9 +13,9 @@ header .mainhead {
 .nav1 {
     margin: auto;
     padding-top: 20px;
-   max-width: 1600px;
+    max-width: 1600px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: static;
     top: 0%;
@@ -28,7 +28,7 @@ header .mainhead {
     width: 100%;
     height:fit-content;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     top: 20px;
     flex-wrap: wrap;
@@ -57,26 +57,27 @@ header .mainhead {
     color: #0078FF;
     background-color: #BBDEFA;
     border: none;
-    font-family: Roboto;
+    font-family: monospace;
     font-size: 20px;
     border-radius: 4px;
-    padding-right: 14px;
-    padding-left: 48px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 10px 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  
 }
 
 #stroke {
     background-color: transparent;
     color: #ffffff;
     border-color: #BBDEFA;
-    font-family: Roboto;
+    font-family: monospace;
     font-size: 20px;
     border-radius: 4px;
-    padding-right: 14px;
-    padding-left: 48px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 10px 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 
 .gap {
