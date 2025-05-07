@@ -17,26 +17,17 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 
 
 <body>
     <!-- Header part -->
     <header>
-        <div class="nav1">
-            <img src="images/logo.png" alt="logo not found">
-            <div class="gap">
-
-                <button id="fill"><img src="images/icon/Schiffini Event Technology.png"> Schiffini Event
-                    Technology</button>
-                <button id="stroke"><img src="images/icon/Schiffini Kinetics.png">Schiffini Kinetics</button>
-            </div>
-
-        </div>
-
-        <hr id="line1">
-
-        <div class="nav2">
+        <nav>
+            <img id="logo" src="images/logo.png" alt="logo not found">
+            <img id="menu" src="images/icon/menu.png" alt="menuicon">
             <ul>
+                <li><img src="images/icon/cross.png" alt=""></li>
                 <li>Event technology</li>
                 <li>Volume</li>
                 <li> Video</li>
@@ -45,138 +36,109 @@
                 <li>Job</li>
                 <li> About us</li>
             </ul>
-
-            <button id="contactbtn">Contact me</button>
+        </nav>
+        <hr>
+        <nav>
+        <div id="btns">
+            <button id="fill"><img src="images/icon/Schiffini Event Technology.png"> Schiffini Event Technology</button>
+                <button id="stroke"><img src="images/icon/Schiffini Kinetics.png">Schiffini Kinetics</button>
         </div>
-        <hr id="line2">
+        <button id="contactbtn">Contact me</button>
+    </nav>
+        <hr>
     </header>
 
     <!-- First hero section -->
-
-    <section class="hero">
-
-        <div class="heading">
-
+     <section class="hero">
+        <div id="heading">
             <h3 id="h3light">EVENT TECHNOLOGY</h3>
             <h1 id="h11">Where <span style="color: #BC5AFF">Technology </span></h1>
             <h1 id="h12"> Becomes <span style="color: #469DFF"> Wow</span></h1>
-
         </div>
-        <div class="bannerimg">
-            <img id="topgrlimg" src="images/Group 2152.png">
+        <span id="bannerimg">
+            <img id="top_img" src="images/banner_top.png">
+            <img id="mob_banner" src="images/mobbanner.png">
+        </span>
+    </section> 
+
+    <!-- About us  -->
+     <section id="aboutcontainer">
+        <img src="images/abt img.png" alt="abtimg">
+        <div id="aboutcontent">
+            <h4>Event technology</h4>
+            <h2>“Event technology for your event or trade fair stand is the backbone of your appearance.” </h2>
+            <ul id="bulletpoints">
+                <li> 25 years of experience in event technology</li>
+                <li> Light, image and sound for your event or exhibition stand from a single source</li>
+                <li> No matter how small or large your event or exhibition stand is - we have the right technology for
+                    your needs</li>
+            </ul>
+            <span id="box">
+                <span id="box_H">Stefan Schiffeler</span>
+                <span id="box_P">Managing Director of Schiffini GmbH & Co. KG</span>
+            </span>
         </div>
-
-    </section>
-    
-    <!-- Content Section -->
-    <section class="content">
-    </section>
-
-
-    <!-- About us section  -->
-
-    <!-- <section class="banner">
-        <div class="bannerimg">
-            <img id="topgrlimg" src="images/Group 2152.png">
-        </div>
-    </section> -->
-
-    <section class="aboutcontainer">
-        <div class="about">
-            <div id="abtimg">
-                <img src="images/abt img.png" alt="abtimg">
-            </div>
-            <div class="aboutcontent">
-                <h4>
-                    Event technology
-                </h4>
-                <h2>
-                    “Event technology for your event or trade fair stand is the backbone of your appearance.”
-                </h2>
-                <ul class="bulletpoints">
-                    <li> 25 years of experience in event technology</li>
-                    <li> Light, image and sound for your event or exhibition stand from a single source</li>
-                    <li> No matter how small or large your event or exhibition stand is – we have the
-                        right technology for your needs</li>
-
-                </ul>
-                <div id="box">
-                    <p class="boxh">Stefan Schiffeler</p>
-                    <p class="boxp">Managing Director of Schiffini GmbH & Co. KG
-                    </p>
-                </div>
-            </div>
-        </div>
-    </Section>
+    </Section> 
 
     <!-- our client -->
 
-    <section class="ourclient">
-        <div class="clientbox">
-            <div class="clienttxt">
-                <h4>
-                    OUR CLIENTS
-                </h4>
-                <h2>
-                    EVENT TECHNOLOGY RENTAL AND FULL SERVICE
-                </h2>
-                <p>
-                    We are your solution provider for your event or exhibition stand.
-                </p>
-                <p>
-                    Thanks to our own extensive equipment inventory, we work flexibly and within
-                    budget. Our years of experience in projects for well-known customers of all
-                    sizes give you the assurance that your project will be a success with our
-                    support.
-                </p>
-                <p>
-                    Interested? Contact us for a non-binding and free initial consultation.
-                </p>
-            </div>
-            <div class="clientslogo">
-                <img src="images/clients/Group 208.png" alt="">
-                <img src="images/clients/Group 209.png" alt="">
-                <img src="images/clients/Group 210.png" alt="">
-                <img src="images/clients/Group 211.png" alt="">
-                <img src="images/clients/Group 212.png" alt="">
-                <img src="images/clients/Group 213.png" alt="">
-
-            </div>
-
+    <section id="ourclient">
+        <div class="clienttxt">
+            <h4>OUR CLIENTS</h4>
+            <h2>EVENT TECHNOLOGY RENTAL AND FULL SERVICE</h2>
+            <p>We are your solution provider for your event or exhibition stand.</p>
+            <p>Thanks to our own extensive equipment inventory, we work flexibly and within budget. Our years of
+                experience in projects for well-known customers of all sizes give you the assurance that your project
+                will be a success with our support.
+            </p>
+            <p>Interested? Contact us for a non-binding and free initial consultation.</p>
         </div>
-
+        <div class="clientslogo">
+            <img src="images/clients/Group 208.png" alt="clients logo">
+            <img src="images/clients/Group 209.png" alt="clients logo">
+            <img src="images/clients/Group 210.png" alt="clients logo">
+            <img src="images/clients/Group 211.png" alt="clients logo">
+            <img src="images/clients/Group 212.png" alt="clients logo">
+            <img src="images/clients/Group 213.png" alt="clients logo">
+        </div>
     </section>
 
+    <!-- What our client say  -->
 
-    <section class="clientsay">
+    <section id="clientsay">
         <h2>WHAT OUR CLIENT SAY</h2>
+        <div id="client_hr">
+            <img class="arrow" src="images/leftarrow.png" alt="left arrow">
 
-        <div class="block">
-            <img src="images/leftarrow.png" alt="left arrow">
-            <img src="images/clientsay.png" alt="profile">
-            <div class="review">
-                <img src="images/quotes.png" alt="quotes">
-                <span id="perahead">
-                    <h3>Dr. Marc Ludwig</h3>
-                    <p>Stellar Attractions GmbH & Co. KG</p>
-                </span>
-                <img src="images/Stellar-Videoproduktion-Logo-qijwubwp0xs6xeftejtfeghymh963odt4a8syfnuwe 1.png"
-                    alt="c=Stellarlogo">
-                <p>"Event technology is the part of an event that simply has to work so that the customer can
-                    concentrate solely on their message. That's why Schiffini is a must for us at events - you just know
-                    that everything will work out perfectly."</p>
+            <div id="block">
+                <img id="profile" src="images/clientsay.png" alt="profile">
+                <div class="review">
+                    <img src="images/quotes.png" alt="quotes">
+                    <span id="perahead">
+                        <h3>Dr. Marc Ludwig</h3>
+                        <p>Stellar Attractions GmbH & Co. KG</p>
+                    </span>
+                    <img src="images/Stellar-Videoproduktion-Logo-qijwubwp0xs6xeftejtfeghymh963odt4a8syfnuwe 1.png"
+                        alt="c=Stellarlogo">
+                    <p>"Event technology is the part of an event that simply has to work so that the customer can
+                        concentrate solely on their message. That's why Schiffini is a must for us at events - you just
+                        know
+                        that everything will work out perfectly."</p>
+                </div>
             </div>
-            <img src="images/rightarrow.png" alt="right arrow">
+            <img class="arrow" src="images/rightarrow.png" alt="right arrow">
         </div>
     </section>
 
     <!-- catagory saction  -->
 
-    <section id="catagory">
-        <img src="images/leftarrow.png" alt="">
+     <section id="catagory">
+        <img class="arrow" src="images/leftarrow.png" alt="">
         <div id="blurbox">
-            <h2>EVENT TECHNOLOGY CATEGORIES</h2>
-            <h2>We can Wow!</h2>
+            <spam id="cata_head">
+                <span id="head_top">EVENT TECHNOLOGY CATEGORIES</span>
+                <span id="head_bottom">We can Wow!</span>
+            </spam>
             <p>We have everything for your event or trade fair:</p>
             <div id="cata">
                 <div class="catbox">
@@ -199,68 +161,65 @@
                 </div>
             </div>
         </div>
-        <img src="images/rightarrow.png" alt="">
-    </section>
+        <img class="arrow" src="images/rightarrow.png" alt="">
+    </section> 
 
     <!-- testimonials  -->
+
     <section id="testimonials">
-        <div id="testitop">
+    <!-- Heading top part  -->
+     <div id="testitop">
             <h2>REVIEWS</h2>
             <div id="google_review">
                 <img src="images/google logo.png" alt="google logo">
                 <img src="images/review.png" alt="review stars">
             </div>
             <p>excellent reviews based on google</p>
-        </div>
-        <div id="reviews">
-            <div class="bg_nd_btn">
-                <img src="images/leftarrow.png" alt="left arrow">
-                <img src="images/Group 2154.png" alt="blur peoples">
-            </div>
+        </div> 
+     <!-- Bottom blur box part  -->
+     <div id="btm_container">
+            <img class="arrow" src="images/leftarrow.png" alt="left arrow">
+            <img class="testiside" src="images/Group 2154.png" alt="blur peoples">
             <div id="blurbox2">
                 <img src="images/Rectangle 89.png" alt="REVIEWER">
                 <div id="Reviewed">
-                    <h4 id="name">
-                        Jamie Kreiger
-                    </h4>
+                    <h4 id="name">Jamie Kreiger</h4>
                     <img src="images/review.png" alt="starimages">
-                    <p>Lorem ipsum dolor sit amet consectetur. Laoreet eget consequat non pulvinar eget. Montes gravida
-                        integer ut pulvinar neque interdum quisque non. Quis at mauris dis in feugiat ut. Donec viverra
+                    <p>Lorem ipsum dolor sit amet consectetur. Laoreet eget consequat non pulvinar eget. Montes
+                        gravida
+                        integer ut pulvinar neque interdum quisque non. Quis at mauris dis in feugiat ut. Donec
+                        viverra
                         aliquam aliquet.</p>
                 </div>
             </div>
-            <div class="bg_nd_btn">
-                <img src="images/Group 2155.png" alt="blur peoples">
-                <img src="images/rightarrow.png" alt="right arro">
-            </div>
+            <img class="testiside" src="images/Group 2155.png" alt="blur peoples">
+            <img class="arrow" src="images/rightarrow.png" alt="right arro">
         </div>
-
-    </section>
-
+    </section> 
     <!-- why we -->
+
     <section id="blurbox3">
         <div id="why_we">
             <h2>WHY WE?</h2>
-            <ul class="bulletpoints">
-                <li> Light, sound, video technology and stage kinetics from a single
-                    source or perfectly coordinated with your service providers</li>
+            <ul id="bulletpoints">
+                <li> Light, sound, video technology and stage kinetics from a single source or perfectly coordinated
+                    with our service providers</li>
                 <li> also: communication with trade fair companies and event venues</li>
-                <li> The result: fewer interfaces and therefore faster response to
-                    requirements and schedule changes</li>
+                <li> The result: fewer interfaces and therefore faster response tob requirements and schedule changes
+                </li>
             </ul>
         </div>
         <div id="img_whywe">
             <img src="images/why we.png" alt="">
-            </p>
         </div>
-
     </section>
 
+    <!-- Typicval projects  -->
     <section id="typicalprjs">
         <h2>TYPICAL PROJECTS </h2>
         <div id="horizontal">
 
-            <img src="images/leftarrow.png" alt="left arrow">
+            <img class="arrow" src="images/leftarrow.png" alt="left arrow">
             <div id="prjs">
 
                 <div id="prjs_1">
@@ -288,19 +247,20 @@
                     <div id="prj_head_5">Product Launches</div>
                 </div>
             </div>
-            <img src="images/rightarrow.png" alt="right arro">
+            <img class="arrow" src="images/rightarrow.png" alt="right arro">
         </div>
-        <img src="images/projects/below.png" alt="">
+        <img id="below_dots"  src="images/projects/below.png" alt="">
     </section>
 
     <!-- blog section  -->
-    <section id="blog">
+
+     <section id="blog">
         <h2>Blogs</h2>
 
         <div id="blogH">
             <img src="images/leftarrow.png" alt="left arrow">
             <div id="blog_boxes">
-                <div class="blogBox">
+                <div class="blogBox" id="box_1">
                     <img src="images/blog/blog (1).png" alt="blog image 1">
                     <div class="blogContent">
                         <hr class="blogHR">
@@ -309,16 +269,16 @@
                         <button class="ReadMore">Read More </button>
                     </div>
                 </div>
-                <div class="blogBox">
+                <div class="blogBox" id="box_2">
                     <img src="images/blog/blog (2).png" alt="blog image 1">
                     <div class="blogContent">
                         <hr class="blogHR">
                         <p .blogHead>“The art of sounds”: Rent sound equipment
                             in Cologne</p>
-                        <button class="ReadMore">Read More </button>
+                        <button class="ReadMore">Read More</button>
                     </div>
                 </div>
-                <div class="blogBox">
+                <div class="blogBox" id="box_3">
                     <img src="images/blog/blog (3).png" alt="blog image 1">
                     <div class="blogContent">
                         <hr class="blogHR">
@@ -327,16 +287,17 @@
                     </div>
                 </div>
             </div>
-
             <img src="images/rightarrow.png" alt="right arro">
         </div>
-    </section>
-    <sectionv id="caseStudies">
+    </section> 
+
+    <!-- Case Studies  -->
+     <section id="caseStudies">
         <h2> CASE STUDIES</h2>
         <div id="hori">
             <img src="images/leftarrow.png" alt="left arrow">
             <div id="csblocks">
-                <div class="csblock">
+                <div class="csblock" id="cs_1">
                     <img src="images/case studies/case studies (1).png" alt="">
                     <div class="cstxt">
                         <p>Event technology for Xbox at gamescom</p>
@@ -345,7 +306,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="csblock">
+                <div class="csblock" id="cs_2">
                     <img src="images/case studies/case studies (2).png" alt="">
                     <div class="cstxt">
                         <p>Lighting technology for exhibition stands at gamescom</p>
@@ -354,8 +315,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="csblock">
-                    <img src="images/case studies/case studies (3).png" alt="">
+                <div class="csblock" id="cs_3">
+                    <img  src="images/case studies/case studies (3).png" alt="">
                     <div class="cstxt">
                         <p>Langen Foundation Presentation Mazda CX-60 lo</p>
                         <div>
@@ -366,28 +327,31 @@
             </div>
             <img src="images/rightarrow.png" alt="right Arrow">
         </div>
-        </section>
+    </section> 
 
-        <footer>
-            <div>
+    <!-- Footer  -->
+    <footer>
+        <div>
             <img src="images/logo/Logo-SCHIFFINI-Dienstleistungen-CMYK-farbig-blau-positiv 1.png" alt="footer logo">
         </div>
         <div class="foot_col">
             <ul>
-                <li><h5>let’s connect</h5></li>
+                <h5>let’s connect</h5>
+                <img src="images/rightarrow.png" alt="right Arrow">
                 <li>Europaallee 44</li>
                 <li>D-50226 Frechen</li>
                 <li>Tel. +49 2234 21912-0</li>
                 <li>Fax +49 2234 21912-90</li>
             </ul>
-            </div>
-            <div class="foot_col">
-                <ul>
-                    <li><h5>Links</h5></li>
-                    <li>info@schiffini.de</li>
-                </ul>
         </div>
         <div class="foot_col">
+            <ul>
+                    <h5>Links</h5>
+                    <img src="images/rightarrow.png" alt="right Arrow">
+                    <li>info@schiffini.de</li>
+                </ul>
+            </div>
+            <div class="foot_col">
             <h5>Follow Us</h5>
             <div id="Social_icon">
                 <img src="images/My Websites collection/Group-1.png" alt="icon">
@@ -397,9 +361,7 @@
             </div>
         </div>
         </div>
-        </footer>
-
-
+    </footer>
 </body>
 
 </html>
